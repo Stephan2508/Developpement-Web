@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio de Herilova Stephan, développeur web et formateur.">
+<title>Portfolio - Herilova Stephan</title>
+<link rel="stylesheet" href="/style.css">
+
+<style>
+
+</style>
+</head>
+
+<body>
+<!-- Barre de navigation  -->
+<nav>
+    <h2 class="logo">HS<span>'Dev</span></h2>
+    <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+   
+</nav>
+
+<section id="home" class="hero">
+    <h1>Salut, je suis <span>Herilova Stephan</span></h1>
+    <h2>Développeur Web & Formateur</h2>
+    <button onclick="scrollToSection('contact')">Me Contacter</button>
+</section>
+
+<section id="about">
+    <h2>À propos</h2>
+    <p>
+        Je suis développeur web passionné et formateur engagé, animé par une véritable curiosité pour les technologies du web et leur constante évolution. Depuis plusieurs années, je consacre mon énergie à concevoir, développer et optimiser des sites et applications performants, tout en transmettant mon savoir avec pédagogie et enthousiasme.
+J’enseigne le HTML et le CSS pour poser des bases solides et structurées, en mettant l’accent sur les bonnes pratiques, l’accessibilité et le responsive design. J’accompagne également mes apprenants dans la maîtrise du JavaScript, afin de leur permettre de créer des interfaces dynamiques et interactives. Au-delà des langages eux-mêmes, je partage les fondamentaux du développement web moderne : compréhension du fonctionnement du web, logique de programmation, structuration de projets, et adoption d’outils et de méthodes professionnelles.
+Mon objectif est d’aider chaque apprenant à gagner en autonomie, à développer une véritable logique de développeur et à acquérir les compétences nécessaires pour réussir dans l’univers du numérique.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Compétences</h2>
+    <div class="skills-container">
+        <h3>HTML</h3>
+        <div class="progress"><div style="width:90%"></div></div>
+
+        <h3>CSS</h3>
+        <div class="progress"><div style="width:85%"></div></div>
+
+        <h3>JavaScript</h3>
+        <div class="progress"><div style="width:75%"></div></div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projets</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Site Vitrine</h3>
+            <p>Un site responsive en HTML & CSS.</p>
+        </div>
+        <div class="project-card">
+            <h3>Todo App</h3>
+            <p>Application dynamique en JavaScript.</p>
+        </div>
+        <div class="project-card">
+    <h3>Raccourcis Clavier</h3>
+    <p>Voir tous les raccourcis clavier pour Word, Excel et PowerPoint.</p>
+    <a href="./Projet raccourci/index.html" target="_blank">
+        <button>Voir le projet</button>
+    </a>
+</div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+<footer>
+    <p>© 2026 Herilova Stephan - Tous droits réservés</p>
+</footer>
+
+<script src="/main.js">
+</script>
+
+</body>
+</html>
